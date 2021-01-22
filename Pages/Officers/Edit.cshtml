@@ -1,0 +1,80 @@
+@page
+@model CrimeManagementSystem.Pages.Officers.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Officer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Officer.Id" />
+            <div class="form-group">
+                <label asp-for="Officer.Name" class="control-label"></label>
+                <input asp-for="Officer.Name" class="form-control" />
+                <span asp-validation-for="Officer.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Officer.Designation" class="control-label"></label>
+                <input asp-for="Officer.Designation" class="form-control" />
+                <span asp-validation-for="Officer.Designation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Officer.DateOfBirth" class="control-label"></label>
+                <input asp-for="Officer.DateOfBirth" class="form-control" />
+                <span asp-validation-for="Officer.DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Officer.Phone" class="control-label"></label>
+                <input asp-for="Officer.Phone" class="form-control" />
+                <span asp-validation-for="Officer.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Officer.Email" class="control-label"></label>
+                <input asp-for="Officer.Email" class="form-control" />
+                <span asp-validation-for="Officer.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Officer.PostingLocation" class="control-label"></label>
+                <input asp-for="Officer.PostingLocation" class="form-control" />
+                <span asp-validation-for="Officer.PostingLocation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Officer.RegistrationDate" class="control-label"></label>
+                <input asp-for="Officer.RegistrationDate" class="form-control" />
+                <span asp-validation-for="Officer.RegistrationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Officer.RetirementDate" class="control-label"></label>
+                <input asp-for="Officer.RetirementDate" class="form-control" />
+                <span asp-validation-for="Officer.RetirementDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Officer.CaseSolved" class="control-label"></label>
+                <input asp-for="Officer.CaseSolved" class="form-control" />
+                <span asp-validation-for="Officer.CaseSolved" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Officer.CasePending" class="control-label"></label>
+                <input asp-for="Officer.CasePending" class="form-control" />
+                <span asp-validation-for="Officer.CasePending" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

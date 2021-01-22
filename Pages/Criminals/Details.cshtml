@@ -1,0 +1,68 @@
+@page
+@model CrimeManagementSystem.Pages.Criminals.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Criminal</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Criminal.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Criminal.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Criminal.DateOfBirth)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Criminal.DateOfBirth)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Criminal.LockupLocation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Criminal.LockupLocation)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Criminal.LockinDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Criminal.LockinDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Criminal.LockoutDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Criminal.LockoutDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Criminal.IsConvicted)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Criminal.IsConvicted)
+        </dd>
+          <dt>
+            @Html.DisplayNameFor(model => model.Criminal.InLockup)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Criminal.InLockup)
+        </dd>
+          <dt>
+            @Html.DisplayNameFor(model => model.Criminal.Age)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Criminal.Age)
+        </dd>
+        
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Criminal.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

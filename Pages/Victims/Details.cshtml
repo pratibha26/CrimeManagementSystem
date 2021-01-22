@@ -1,0 +1,79 @@
+@page
+@model CrimeManagementSystem.Pages.Victims.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Victim</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim.DateOfBirth)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim.DateOfBirth)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim.Phone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim.ZipCode)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim.ZipCode)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim.DeathDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim.DeathDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim.IsDeceased)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim.IsDeceased)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Victim.Age)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Victim.Age)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Victim.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

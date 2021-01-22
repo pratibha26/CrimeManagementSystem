@@ -1,0 +1,110 @@
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.deps.json
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.runtimeconfig.json
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.runtimeconfig.dev.json
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.dll
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.pdb
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.Views.dll
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.Views.pdb
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.csprojAssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.RazorAssemblyInfo.cache
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.RazorAssemblyInfo.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.AssemblyInfo.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.TagHelpers.input.cache
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.TagHelpers.output.cache
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.RazorCoreGenerate.cache
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.RazorTargetAssemblyInfo.cache
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.RazorTargetAssemblyInfo.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.Views.pdb
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.dll
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.pdb
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.csproj.CopyComplete
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Criminals\Create.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Criminals\Delete.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Criminals\Details.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Criminals\Edit.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Criminals\Index.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Officers\Create.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Officers\Delete.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Officers\Details.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Officers\Edit.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Officers\Index.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Victims\Create.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Victims\Delete.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Victims\Details.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Victims\Edit.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Victims\Index.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Crimes\Create.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Crimes\Delete.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Crimes\Details.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Crimes\Edit.g.cshtml.cs
+C:\Users\Dell\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Crimes\Index.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.deps.json
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.runtimeconfig.json
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.runtimeconfig.dev.json
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.dll
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.pdb
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.Views.dll
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\bin\Debug\netcoreapp2.1\CrimeManagementSystem.Views.pdb
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.csprojAssemblyReference.cache
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.RazorAssemblyInfo.cache
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.RazorAssemblyInfo.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.AssemblyInfo.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.TagHelpers.input.cache
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.TagHelpers.output.cache
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.RazorCoreGenerate.cache
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Crimes\Create.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Crimes\Delete.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Crimes\Details.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Crimes\Edit.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Crimes\Index.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Criminals\Create.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Criminals\Delete.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Criminals\Details.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Criminals\Edit.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Criminals\Index.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Officers\Create.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Officers\Delete.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Officers\Details.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Officers\Edit.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Officers\Index.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Victims\Create.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Victims\Delete.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Victims\Details.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Victims\Edit.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\Victims\Index.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.RazorTargetAssemblyInfo.cache
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.RazorTargetAssemblyInfo.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.Views.pdb
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.dll
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.pdb
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\CrimeManagementSystem.csproj.CopyComplete
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\OfficerProfile.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\CriminalProfile.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\VictimProfile.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\UpdateCriminalRecord.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\CrimeProfile.g.cshtml.cs
+C:\Users\Pratibha Jain\Documents\GitHub\IS7012\CrimeManagementSystem\obj\Debug\netcoreapp2.1\Razor\Pages\SearchProfile.g.cshtml.cs

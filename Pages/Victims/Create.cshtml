@@ -1,0 +1,69 @@
+@page
+@model CrimeManagementSystem.Pages.Victims.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Victim</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Victim.Name" class="control-label"></label>
+                <input asp-for="Victim.Name" class="form-control" />
+                <span asp-validation-for="Victim.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Victim.DateOfBirth" class="control-label"></label>
+                <input asp-for="Victim.DateOfBirth" class="form-control" />
+                <span asp-validation-for="Victim.DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Victim.Phone" class="control-label"></label>
+                <input asp-for="Victim.Phone" class="form-control" />
+                <span asp-validation-for="Victim.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Victim.Email" class="control-label"></label>
+                <input asp-for="Victim.Email" class="form-control" />
+                <span asp-validation-for="Victim.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Victim.Address" class="control-label"></label>
+                <input asp-for="Victim.Address" class="form-control" />
+                <span asp-validation-for="Victim.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Victim.ZipCode" class="control-label"></label>
+                <input asp-for="Victim.ZipCode" class="form-control" />
+                <span asp-validation-for="Victim.ZipCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Victim.DeathDate" class="control-label"></label>
+                <input asp-for="Victim.DeathDate" class="form-control" />
+                <span asp-validation-for="Victim.DeathDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Victim.Description" class="control-label"></label>
+                <input asp-for="Victim.Description" class="form-control" />
+                <span asp-validation-for="Victim.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

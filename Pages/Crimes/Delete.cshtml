@@ -1,0 +1,88 @@
+@page
+@model CrimeManagementSystem.Pages.Crimes.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Crime</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.CrimeType)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.CrimeType)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.CrimeDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.CrimeDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.CrimeLocation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.CrimeLocation)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.CrimeStatus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.CrimeStatus)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.CrimeRegistrationDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.CrimeRegistrationDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.HasEvidence)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.HasEvidence)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.Priority)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.Priority)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.Victim)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.Victim.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.Criminal)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.Criminal.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crime.Officer)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crime.Officer.Name)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Crime.Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

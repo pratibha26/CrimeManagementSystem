@@ -1,0 +1,96 @@
+@page
+@model CrimeManagementSystem.Pages.Crimes.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].CrimeType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].CrimeDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].CrimeLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].CrimeStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].CrimeRegistrationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].HasEvidence)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].Priority)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].Victim)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].Criminal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Crime[0].Officer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Crime) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrimeType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrimeDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrimeLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrimeStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrimeRegistrationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasEvidence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Priority)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Victim.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Criminal.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Officer.Name)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

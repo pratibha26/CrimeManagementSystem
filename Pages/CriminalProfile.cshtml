@@ -1,0 +1,88 @@
+﻿@page
+@model CriminalProfileModel
+@{
+    ViewData["title"] = "Criminal's Profile";
+}
+<head>
+<style>
+#crimes {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#crimes td, #crimes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#crimes tr:nth-child(even){background-color: #f2f2f2;}
+
+#crimes tr:hover {background-color: #ddd;}
+
+#crimes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(226, 9, 38);
+    color: white;
+}
+</style>
+</head>
+
+<h2 class="text-center text-success">@Model.Criminal.Name</h2>
+
+
+<div class="row">
+    
+    <div class="col-md-6">
+        <h3>List of Crime cases</h3>        
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <table class="table table-bordered table-striped" id = "crimes">
+                <thead>
+                    <tr>
+                        <th style="width: 50px;">Crime ID</th>
+                        <th style="width: 300px;">Crime Type</th>
+                        <th style="width: 150px;">Description</th>
+                        <th style="width: 40px;">Crime Date</th>
+                        <th style="width: 130px;">Crime Location</th>
+                        <th style="width: 100px;">Crime Status</th>
+                        <th style="width: 130px;">Crime Registration Date</th>
+                        <th style="width: 40px;">Has Evidence</th>
+                        <th style="width: 40px;">Priority</th>
+                        <th style="width: 100px;">Assigned Officer</th>
+                        <th style="width: 100px;">Victim Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var crime in Model.Criminal.Crimes) {
+                        <tr>
+                            <td>@crime.Id</td>
+                            <td>@crime.CrimeType</td>
+                            <td>@crime.Description</td>
+                            <td>@crime.CrimeDate</td>
+                            <td>@crime.CrimeLocation</td>
+                            <td>@crime.CrimeStatus</td>
+                            <td>@crime.CrimeRegistrationDate</td>
+                            @if(@crime.HasEvidence)
+                            {
+                                <td>Yes</td>
+                            }
+                            else
+                            {
+                                <td>No</td>
+                            }
+                            <td>@crime.Priority</td>
+                            <td><a href="https://localhost:5001/OfficerProfile?id=@crime.OfficerId">@crime.Officer.Name</a></td>
+                            <td><a href="https://localhost:5001/VictimProfile?id=@crime.VictimId">@crime.Victim.Name</a></td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

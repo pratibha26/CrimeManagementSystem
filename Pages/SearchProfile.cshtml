@@ -1,0 +1,55 @@
+﻿@page
+@model SearchProfileModel
+@{
+}
+
+<form action="" method="POST" style="margin-top: 50px;">
+  <div class="form-group">
+    <label class="control-label" for="search">Search Name</label>
+    <input type="text" class="form-control" name="search" id="search" />
+  </div>
+  <div class="form-group">
+    <input type="submit" value="Search" class="btn btn-default" />
+  </div>
+</form>
+
+@if(Model.SearchCompleted) {
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Criminal Name</th>
+                <th>Victim Name</th>
+                <th>Officer Name</th>
+                <th>Crime Description</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model.SearchResult.Count > 0) {
+                @foreach(var crime in Model.SearchResult) {
+                    <tr>
+                        <td><a href="https://localhost:5001/CriminalProfile?id=@crime.CriminalId">@crime.Criminal.Name</a></td>
+                        <td><a href="https://localhost:5001/VictimProfile?id=@crime.VictimId">@crime.Victim.Name</a></td>
+                        <td><a href="https://localhost:5001/OfficerProfile?id=@crime.OfficerId">@crime.Officer.Name</a></td>
+                        <td>@crime.Description</td>
+                        <td>
+                            <a href="https://localhost:5001/CrimeProfile?id=@crime.Id">More details</a>
+                        </td>
+                    </tr>
+                }
+            } else {
+                <tr class="danger">
+                    <td colspan="4" class="text-center">
+                        No results found for term "@Model.Search"
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+} else {
+    <div class="alert alert-info">
+        <p>
+            Enter the search terms into the box and click <strong>Search</strong>
+        </p>
+    </div>
+}

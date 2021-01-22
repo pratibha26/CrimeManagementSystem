@@ -1,0 +1,143 @@
+﻿@page
+@model CrimeProfileModel
+@{
+}
+<h1>Crime Details</h1>
+<table class="table table-bordered table-striped" id = "crimes">
+    <thead>
+        <tr>
+            <th style="width: 50px;">Crime ID</th>
+            <th style="width: 300px;">Crime Type</th>
+            <th style="width: 150px;">Description</th>
+            <th style="width: 40px;">Crime Date</th>
+            <th style="width: 130px;">Crime Location</th>
+            <th style="width: 100px;">Crime Status</th>
+            <th style="width: 130px;">Crime Registration Date</th>
+            <th style="width: 40px;">Has Evidence</th>
+            <th style="width: 40px;">Priority</th>
+            <th style="width: 100px;">Officer Name</th>
+            <th style="width: 100px;">Criminal Name</th>
+            <th style="width: 100px;">Victim Name</th>
+            <th style="width: 40px;">Update</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>@Model.Crime.Id</td>
+                <td>@Model.Crime.CrimeType</td>
+                <td>@Model.Crime.Description</td>
+                <td>@Model.Crime.CrimeDate</td>
+                <td>@Model.Crime.CrimeLocation</td>
+                <td>@Model.Crime.CrimeStatus</td>
+                <td>@Model.Crime.CrimeRegistrationDate</td>
+                @if(@Model.Crime.HasEvidence)
+                {
+                    <td>Yes</td>
+                }
+                else
+                {
+                    <td>No</td>
+                }
+                <td>@Model.Crime.Priority</td>
+                <td><a href="https://localhost:5001/CriminalProfile?id=@Model.Crime.OfficerId">@Model.Crime.Officer.Name</a></td>
+                <td><a href="https://localhost:5001/CriminalProfile?id=@Model.Crime.CriminalId">@Model.Crime.Criminal.Name</a></td>
+                <td><a href="https://localhost:5001/VictimProfile?id=@Model.Crime.VictimId">@Model.Crime.Victim.Name</a></td>
+                <td><a href="https://localhost:5001/UpdateCriminalRecord?id=@Model.Crime.Id">Edit</a></td>
+
+            </tr>
+    
+    </tbody>
+</table> 
+<h3>Officer @Model.Crime.Officer.Name Details </h3>
+<table class="table">
+    <thead>
+         <tr>
+            <th>Designation</th>
+            <th>Date of Birth</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Posting Location</th>
+            <th>Registration Date</th>
+            <th>Retirement Date</th>
+            <th>Cases Solved</th>
+            <th>Cases Worked</th>
+            <th>Age</th>
+         </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+                <td>@Model.Crime.Officer.Designation</td>
+                <td>@Model.Crime.Officer.DateOfBirth</td>
+                <td>@Model.Crime.Officer.Phone</td>
+                <td>@Model.Crime.Officer.Email</td>
+                <td>@Model.Crime.Officer.PostingLocation</td>
+                <td>@Model.Crime.Officer.RegistrationDate</td>
+                <td>@Model.Crime.Officer.RetirementDate</td>
+                <td>@Model.Crime.Officer.CaseSolved</td>
+                <td>@Model.Crime.Officer.CasesWorked</td>
+                <td>@Model.Crime.Officer.Age</td>
+
+        </tr>
+    </tbody>
+</table>
+
+<h3>Criminal @Model.Crime.Criminal.Name Details </h3>
+<table class="table">
+    <thead>
+         <tr>
+            <th>Lockup Location</th>
+            <th>Date of Birth</th>
+            <th>Lockin Date</th>
+            <th>Lockout Date</th>
+            <th>Convicted</th>
+            <th>In Lockup</th>
+            <th>Age</th>
+         </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+                <td>@Model.Crime.Criminal.LockupLocation</td>
+                <td>@Model.Crime.Criminal.DateOfBirth</td>
+                <td>@Model.Crime.Criminal.LockinDate</td>
+                <td>@Model.Crime.Criminal.LockoutDate</td>
+                <td>@Model.Crime.Criminal.IsConvicted</td>
+                <td>@Model.Crime.Criminal.InLockup</td>
+                <td>@Model.Crime.Criminal.Age</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Victim @Model.Crime.Victim.Name Details </h3>
+<table class="table">
+    <thead>
+         <tr>
+            <th>Date of Birth</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Zipcode</th>
+            <th>Death Date</th>
+            <th>Description</th>
+            <th>Age</th>
+            <th>Still Alive</th>
+         </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+                <td>@Model.Crime.Victim.DateOfBirth</td>
+                <td>@Model.Crime.Victim.Phone</td>
+                <td>@Model.Crime.Victim.Email</td>
+                <td>@Model.Crime.Victim.Address</td>
+                <td>@Model.Crime.Victim.ZipCode</td>
+                <td>@Model.Crime.Victim.DeathDate</td>
+                <td>@Model.Crime.Victim.Description</td>
+                <td>@Model.Crime.Victim.Age</td>
+                <td>@Model.Crime.Victim.IsDeceased</td>
+
+        </tr>
+    </tbody>
+</table>
